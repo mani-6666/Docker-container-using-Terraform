@@ -45,7 +45,7 @@ To provision a local Docker container using Terraform, encapsulating a Node.js a
    - Developed `main.tf` to define Docker provider and resources:
      - Pulled the Node.js base image.
      - Built a custom Docker image for the application.
-     - Provisioned a Docker container exposing port 3000.
+     - Provisioned a Docker container exposing port 80.
 
 4. **Terraform Initialization**
    - Ran `terraform init` to initialize the working directory.
